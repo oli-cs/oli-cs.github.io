@@ -1,7 +1,7 @@
 main {
     margin: auto;
     padding: 1rem;
-    width: 800px;
+    width: 90vw;
     max-width: calc(100% - 2rem);
     color: white;
     font-size: 20px;
@@ -45,12 +45,23 @@ h1 {
     gap: 2rem;
     padding: 0;
 }
+.projects-card-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 0;
+    gap: 2rem;
+    padding: 0;
+}
+
+.navbar{
+    text-align: center;
+}
+
 .navbar a{
     color:white;
     font-size: 20px;
     text-align: center;
     padding-right: 20px;
-    
 }
 
 footer{
@@ -60,4 +71,7 @@ footer{
 }
 a{
     color:white;
+}
+.about{
+    text-align: center;
 }
